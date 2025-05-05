@@ -31,7 +31,7 @@ const Navbar = () => {
   },[window.scrollY])
 
   return (
-    <div className={`w-full h-16 flex items-center justify-between md:px-10 max-md:px-4 py-4 text-roboto fixed top-0 right-0 left-0 gap-4 nav z-50${blur ? 'bg-black/70 backdrop-blur-md' : 'bg-transparent'} transition-all duration-300 ease-in-out`}>
+    <div className={`w-full h-16 flex items-center justify-between md:px-10 max-md:px-4 py-4 text-roboto fixed top-0 right-0 left-0 gap-4 nav z-50 ${blur ? 'bg-black/70 backdrop-blur-md' : 'bg-transparent'} transition-all duration-300 ease-in-out`}>
         <a href="#home" className='text-2xl font-bold text-gray-800 flex items-center space-x-2 flex-wrap'>
             <span className='text-gray-400'>Powercon</span>
             <span className='text-secondary'>Electronics</span>
