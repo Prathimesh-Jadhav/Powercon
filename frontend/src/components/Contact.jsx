@@ -59,7 +59,7 @@ export default function ContactPage() {
   };
 
   return (
-    <div className="py-16 bg-gray-300 w-full" id='contact'>
+    <div className="py-16 bg-gray-300 w-full -z-20" id='contact'>
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-gray-800 mb-4">Contact Us</h1>

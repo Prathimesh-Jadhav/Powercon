@@ -90,7 +90,7 @@ const Home = () => {
             </div>
 
             {/* services section  */}
-            <div className='w-full max-md:px-4 md:px-10 py-10 bg-gray-300 text-roboto text-gray-800 z-20' id='services'>
+            <div className='w-full max-md:px-4 md:px-10 py-10 bg-gray-300 text-roboto text-gray-800 -z-20' id='services'>
                 <h3 className='text-3xl font-medium text-center'>Services</h3>
                 <p className='text-sm text-center text-gray-600 mt-2'>We provide excellent services</p>
                 <div className='grid grid-cols-1 md:grid-cols-3 gap-6 mt-16'>
@@ -109,7 +109,7 @@ const Home = () => {
 
             {/* Products section  */}
 
-            <div className='w-full max-md:px-4 md:px-10 py-10 bg-gray-300 text-roboto text-gray-800 z-20' id='products'>
+            <div className='w-full max-md:px-4 md:px-10 py-10 bg-gray-300 text-roboto text-gray-800 -z-20' id='products'>
                 <h3 className='text-3xl font-medium text-center' > Our Products</h3>
                 <p className='text-sm text-center text-gray-600 mt-2'> We provide excellent products</p>
                 <div className="grid md:grid-cols-3 gap-6 mt-16">

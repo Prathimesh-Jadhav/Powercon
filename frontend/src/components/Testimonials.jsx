@@ -58,7 +58,7 @@ export default function TestimonialsSection() {
   };
 
   return (
-    <div className="w-full bg-gray-300 py-16 text-roboto" id='testimonials'> 
+    <div className="w-full bg-gray-300 py-16 text-roboto -z-20" id='testimonials'> 
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-gray-800 mb-4">What Our Customers Say</h2>
